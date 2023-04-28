@@ -25,7 +25,7 @@ Payments
           </svg><h5>
           Search by receipt, grave site, payor
           </h5></div>
-    <div className='flex items-center rounded-full bg-gray-500 text-white px-4 gap-3 items-center'>
+    <div className='flex items-center rounded-full bg-gray-500 text-white px-4 gap-1 items-center'>
     <img className='w-4' src={filter} />
     <button className=' text-white py-1'>Filter</button>
     </div>

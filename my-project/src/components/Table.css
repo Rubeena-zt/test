@@ -45,3 +45,14 @@ button {
   color: #fff;
   cursor: pointer;
 }
+.input{
+  margin-right: 10px;
+}
+.pagination{
+  padding-bottom: 100px;
+  margin-top: 10px;
+  margin-left: 27px;
+}
+.option{
+  border:1px solid black;
+}

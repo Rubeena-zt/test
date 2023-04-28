@@ -17,8 +17,26 @@ const Header = () => {
         </div>
         <div>
           <ul className="text-white flex gap-2 items-center">
-            <li>Maintain</li>
-            <button className="flex gap-1 items-center rounded-full bg-zinc-700 px-3 py-2">
+          <div className="flex items-center gap-2">
+          <svg
+                className="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="1.5"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+                aria-hidden="true"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M13.5 16.875h3.375m0 0h3.375m-3.375 0V13.5m0 3.375v3.375M6 10.5h2.25a2.25 2.25 0 002.25-2.25V6a2.25 2.25 0 00-2.25-2.25H6A2.25 2.25 0 003.75 6v2.25A2.25 2.25 0 006 10.5zm0 9.75h2.25A2.25 2.25 0 0010.5 18v-2.25a2.25 2.25 0 00-2.25-2.25H6a2.25 2.25 0 00-2.25 2.25V18A2.25 2.25 0 006 20.25zm9.75-9.75H18a2.25 2.25 0 002.25-2.25V6A2.25 2.25 0 0018 3.75h-2.25A2.25 2.25 0 0013.5 6v2.25a2.25 2.25 0 002.25 2.25z"
+                ></path>
+              </svg>
+              <li>Maintain</li>
+          </div>
+            
+            <button className="flex gap-2 items-center rounded-full bg-zinc-700 px-3 py-2">
               <img className="w-3 h-3 " src={dollar} alt=""/>
               <li>Payments</li>
             </button>
@@ -28,7 +46,7 @@ const Header = () => {
             </div>
           </ul>
         </div>
-        <ul className="flex justify-end gap-3 py-2 items-center">
+        <ul className="flex justify-end gap-2 py-2 items-center">
           <li>
             <svg
               className="w-5 h-5 text-white"
